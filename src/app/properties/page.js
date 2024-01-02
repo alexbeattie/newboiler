@@ -79,7 +79,7 @@ export default function PropertiesIndex() {
 		c3.96,12.33,9.3,24.17,15.09,35.73c7.18,14.34,14.43,30.4,26.38,41.45c1.36,1.26,17.41,17.13,18.04,16.68
 		c0,0-237.82,171.7-237.82,171.7L27.71,696.69L4.4,722.37L6.14,212.37z"/></Link>
 
-          <Link href="/properties/lottwentyfour">
+          <Link aria-label="Visit the detail page for Lot Twenty-Four" href="/properties/lottwentyfour">
             <path fill="#D0E0BC" stroke="#FFFFFF" stroke-width="2.6039" stroke-miterlimit="10" d="M171.49,5.1l214.44,1.82l26.59,92.88
 		l6.71,8.98l34.48,45.52l11.64,15.24l-1.52,94.14c0,0-10.94-1.27-23.81-4.56c-13.85-3.53-20-3.45-22.59-2.98
 		c-1.82,0.33-25.4,3.2-41.91,10.31c-4.1,1.77-31.15,18.53-31.15,18.53s-20.1-12.06-27.91-17.01c-6.15-3.9-15.03-6.34-27.89-16.32
