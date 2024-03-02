@@ -1,6 +1,13 @@
 import Link from 'next/link';
 import Layout from '../layout'
 import Image from 'next/image'
+
+export const metadata = {
+  title: 'Location',
+  description: 'Skywater is located on the southern part of Salt Spring Island, the premier Southern Gulf Island.'
+}
+
+// Output: <title>About | Acme</title>
 export default function Location() {
   return (
     <>
@@ -14,9 +21,9 @@ export default function Location() {
           alt="Lot Two"
           width={2560}
           height={1440}
-          backgroundSize="cover"
-          maxWidth="none"
-          priority
+          backgroundsize="cover"
+          maxwidth="none"
+
         />
         <article className='px-6 py-12 shadow-xl bg-white p-2 prose prose-slate mx-auto mt-8 lg:prose-lg'>
 
@@ -59,9 +66,9 @@ export default function Location() {
             alt="Map"
             width={2560}
             height={1440}
-            backgroundSize="cover"
-            maxWidth="none"
-            priority
+            backgroundsize="cover"
+            maxwidth="none"
+
           />
           {/* // <img src="images/salish-sea-map.jpg"> */}
 
@@ -93,7 +100,7 @@ export default function Location() {
             18,000 square kilometres (6,900 sq mi).</p>
 
         </article>
-        <Link href="/">Back to home</Link>
+
       </main>
     </>
   )

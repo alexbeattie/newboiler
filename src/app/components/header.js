@@ -8,8 +8,8 @@ export default function Header() {
         height={800}
         width={172}
         alt="Skywater"
-        priority={true}
-        style={{ maxWidth: '100%', height: 'auto', width: 'auto' }}
+       
+      style={{ maxwidth: '100%', height: 'auto', width: 'auto' }}
       />
     </header>
   );

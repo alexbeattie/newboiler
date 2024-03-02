@@ -13,9 +13,9 @@ export default function SaltSpring() {
           alt="Lot Two"
           width={2560}
           height={1440}
-          backgroundSize="cover"
-          maxWidth="none"
-          priority
+          backgroundsize="cover"
+          maxwidth="none"
+
         />
         <article className='px-6 py-12 shadow-xl bg-white p-2 prose prose-slate mx-auto mt-8 lg:prose-lg'>
 
@@ -114,11 +114,9 @@ export default function SaltSpring() {
           <p>Also there are rocky knolls, bleached grasses, natural meadow areas. It&apos;s all part of the microclimate, and it&apos;s
             all beautiful.</p>
         </article>
-      </main>
-      <h2>
 
-        <Link href="/">Back to home</Link>
-      </h2>
+      </main>
+
     </>
   )
 }

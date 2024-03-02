@@ -6,19 +6,13 @@ export default function PropertiesIndex() {
 
     <main className="flex min-h-screen flex-col items-center justify-between p-0">
 
-      <div>Lot Two</div>
+      <div>All Lots</div>
 
 
 
       <svg xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1597.26 1063.52" enable-background="new 0 0 1597.26 1063.52">
         <g id="Layer_1">
-          <g>
-            <path fill="none" stroke="#FFFFFF" stroke-width="3.1247" stroke-miterlimit="10" d="M702.73,530.32L660.3,339.16
-			c0,0,37.21,9.32,65.72,27.93c11.01,7.19,15.97,11.21,30.79,22.46c10.71,8.13,24.19,20.6,56.16,39.69
-			c7.23,4.32,27.21,10.89,43.07,16.75c15.88,5.87,27.2,12.12,29.72,13.45c12.77,6.75,39.37,20.63,61.42,32.23
-			c37.5,19.72,63.31,38.61,63.31,38.61L702.73,530.32z"/>
-          </g>
           <g id="lotone">
             <Link aria-label="Visit the detail page for Lot One" href="/properties/lotone"><path fill="#D0E0BC" d="M534.14,318.27c7.39,2.8,20.5,4.87,25.49,5.47c3.98,0.48,5.88,0.83,8.27,1.04
 			c3.98,0.35,6.56,0.48,10.74,0.52c35.31,0.31,54.4,5.91,81.66,13.86c2.06,9.47,7.89,33.05,16.8,73.71
@@ -28,7 +22,14 @@ export default function PropertiesIndex() {
 			c2.06,9.47,7.89,33.05,16.8,73.71c6.09,27.79,12.18,55.58,18.27,83.37c2.44,11.15,5.39,22.85,7.84,34l-169.23,0.04L534.14,318.27z
 			"/></Link>
           </g>
-          <g>
+          <g id="lottwo">
+            <path className="fill-zinc-500" stroke="#FFFFFF" stroke-width="3.1247" stroke-miterlimit="10" d="M702.73,530.32L660.3,339.16
+			c0,0,37.21,9.32,65.72,27.93c11.01,7.19,15.97,11.21,30.79,22.46c10.71,8.13,24.19,20.6,56.16,39.69
+			c7.23,4.32,27.21,10.89,43.07,16.75c15.88,5.87,27.2,12.12,29.72,13.45c12.77,6.75,39.37,20.63,61.42,32.23
+			c37.5,19.72,63.31,38.61,63.31,38.61L702.73,530.32z"/>
+          </g>
+
+          <g id="lotthree">
             <Link aria-label="Visit the detail page for Lot Three" href="/properties/lotthree">
               <path fill="#D0E0BC" d="M939.28,487.53c21.34,5.59,50.01,10.06,71.43,4.31c8.47-2.28,16.86-5.76,23.23-11.79
 			c9.27-8.77,13.18-21.83,14.79-34.49c1.6-12.66,1.3-25.57,3.94-38.06c1.43-6.75,3.9-13.6,8.96-18.29c8.51-7.87,22.2-7.4,32.64-2.37
@@ -43,33 +44,40 @@ export default function PropertiesIndex() {
 			c-3.22-0.92-6.13-2.66-9-4.38c-9.76-4.88-19-11.4-28.35-17.02C963.73,502.28,948.38,493.56,939.28,487.53z"/>
             </Link>
           </g>
-          <Link aria-label="Visit the detail page for Lot Twenty-Two" href="/properties/lottwentytwo">
-            <path fill="#D0E0BC" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" d="M533.09,317.12
+          <g id="lottwentytwo">
+            <Link aria-label="Visit the detail page for Lot Twenty-Two" href="/properties/lottwentytwo">
+              <path fill="#D0E0BC" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" d="M533.09,317.12
 		c-24.75-12.66-39.58-23.48-41.45-24.89c-6.66-5.03-9.61-6.75-17.3-10.91c-12.31-6.65-6.66-3.94-20.91-10.68
 		c-13.73-6.49-53.42-9.07-77.9,0.32c-21.74,8.34-25.57,15.12-30.34,20.39c-12.24,13.49-10.49,31.26-7.9,48.26
 		c1.35,8.81,3.33,13.68,4.64,18.44c2.28,8.3,5.36,14.14,7.81,19.72c2.45,5.58,7.42,16.18,20.67,34.22
 		c13.06,17.78,28.68,29.98,28.68,29.98s7.1,0.09,9.03,2.59c2.56,2.67,3.66,4.36,3.84,7.71l121.36,75.58
 		c0-12.2,0.13-27.83,0.13-40.03c-0.01-26.15-0.12-52.36-0.13-78.51c-0.01-24.5,0-47.91,0-73.49
 		C533.32,327.66,533.09,317.12,533.09,317.12z"/></Link>
-          <g>
+          </g>
+          <g id="lottwentythree">
             <Link aria-label="Visit the detail page for Lot Twenty-Three" href="/properties/lottwentythree">
-              <path fill="#D0E0BC" d="M536.57,7.16l-0.01,300.69c0,0-29.42-17.82-45.43-29.15c-11.46-7.03-27.36-15.23-27.36-15.23l1.39-93.75
+              <path className="hover:bg-purple-700" fill="#D0E0BC" d="M536.57,7.16l-0.01,300.69c0,0-29.42-17.82-45.43-29.15c-11.46-7.03-27.36-15.23-27.36-15.23l1.39-93.75
 			l-52.83-69.73l-2.31-8.06C404.56,73.39,385.75,7.1,385.75,7.1L536.57,7.16z"/>
               <path fill="none" stroke="#FFFFFF" stroke-width="2.6039" stroke-miterlimit="10" d="M536.57,7.16l-0.01,300.69
 			c0,0-29.42-17.82-45.43-29.15c-11.46-7.03-27.36-15.23-27.36-15.23l1.39-93.75l-52.83-69.73l-2.31-8.06
 			C404.56,73.39,385.75,7.1,385.75,7.1L536.57,7.16z"/></Link>
           </g>
-          <Link aria-label="Visit the detail page for Lot Twenty-Six" href="/properties/lottwentysix">
-            <path fill="#D0E0BC" stroke="#FFFFFF" stroke-width="2.6039" stroke-miterlimit="10" d="M27.2,701.99c0.42-0.43,0.9-0.79,1.43-1.08
+          <g id="lottwentysix">
+            <Link aria-label="Visit the detail page for Lot Twenty-Six" href="/properties/lottwentysix">
+              <path fill="#D0E0BC" stroke="#FFFFFF" stroke-width="2.6039" stroke-miterlimit="10" d="M27.2,701.99c0.42-0.43,0.9-0.79,1.43-1.08
 		c8.91-4.92,90.44-50.01,105.47-59.57c11.92-7.59,16.71-9.65,18.36-10.21c0.61-0.21,1.17-0.51,1.69-0.89l238.14-176.78l7.02,9.37
 		l-34.06,96.24c-0.07,0.21-0.14,0.43-0.19,0.65c-0.46,1.95-100.5,159.33-110.07,166.04c-1.45,1.02,30.93,48.99,50.79,86.48
 		c17.75,33.51,23.15,57.04,23.15,57.04c0.61,1.8-97.69,156.42-97.69,156.42l27.67,35.36H2.06V730.04c0-1.65,0.65-3.24,1.81-4.41
 		L27.2,701.99z"/></Link>
-          <path fill-rule="evenodd" clip-rule="evenodd" fill="#D0E0BC" stroke="#FFFFFF" stroke-width="2.6039" stroke-miterlimit="10" d="
+          </g>
+          <g id="lottwentyseven">
+            <path fill-rule="evenodd" clip-rule="evenodd" fill="#D0E0BC" stroke="#FFFFFF" stroke-width="2.6039" stroke-miterlimit="10" d="
 		M414.27,453.73c-2.87,18.22-15.89,10.68-15.89,10.68l-33.9,96.84c-3.49,6.25-5.85,9.64-5.85,9.64S265.2,720.63,258.35,727.15
 		c0,0,57.8,89.47,66.45,116.07l9.78,30.09c-91.77,142.69-94.49,143.98-99.39,153.05l14.87,16.66l13.18,17.13l272.89-3.68V529.43"/>
-          <Link aria-label="Visit the detail page for Lot Twenty-Five" href="/properties/lottwentyfive">
-            <path fill="#D0E0BC" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" d="M6.14,212.37c0,0,14.63-6.55,32.04-12.32
+          </g>
+          <g id="lottwentyseven">
+            <Link aria-label="Visit the detail page for Lot Twenty-Five" href="/properties/lottwentyfive">
+              <path fill="#D0E0BC" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" d="M6.14,212.37c0,0,14.63-6.55,32.04-12.32
 		c17.42-5.77,28.39-11.31,33.98-18.23c9.3-11.49,3.14-36.4,14.21-54.59S107.33,96,107.33,96l7.37-9.66c0,0,10.63,9.59,11.46,12.38
 		c1.25,4.16,2.33,8.38,3.47,12.58c0.92,3.39,1.27,6.97,2.59,10.24c1.36,3.4,3.89,5.49,6.41,8.03c3.9,3.94,7.81,7.88,11.71,11.83
 		c0,0,24.24,10.81,25.8,14.1c1.78,3.76,6.01,7.17,8.78,10.17c5.19,5.63,10.47,11.19,15.76,16.73c4.06,4.25,8.73,10.37,14.13,12.61
@@ -78,55 +86,70 @@ export default function PropertiesIndex() {
 		c-3.04,6.17-3.29,13.43-3.59,20.17c-0.29,6.35-1.13,13.2-1.25,19.74c-0.12,6.36,2.03,12.35,3.95,18.34
 		c3.96,12.33,9.3,24.17,15.09,35.73c7.18,14.34,14.43,30.4,26.38,41.45c1.36,1.26,17.41,17.13,18.04,16.68
 		c0,0-237.82,171.7-237.82,171.7L27.71,696.69L4.4,722.37L6.14,212.37z"/></Link>
-
-          <Link aria-label="Visit the detail page for Lot Twenty-Four" href="/properties/lottwentyfour">
-            <path fill="#D0E0BC" stroke="#FFFFFF" stroke-width="2.6039" stroke-miterlimit="10" d="M171.49,5.1l214.44,1.82l26.59,92.88
+          </g>
+          <g id="lottwentyfour">
+            <Link aria-label="Visit the detail page for Lot Twenty-Four" href="/properties/lottwentyfour">
+              <path fill="#D0E0BC" stroke="#FFFFFF" stroke-width="2.6039" stroke-miterlimit="10" d="M171.49,5.1l214.44,1.82l26.59,92.88
 		l6.71,8.98l34.48,45.52l11.64,15.24l-1.52,94.14c0,0-10.94-1.27-23.81-4.56c-13.85-3.53-20-3.45-22.59-2.98
 		c-1.82,0.33-25.4,3.2-41.91,10.31c-4.1,1.77-31.15,18.53-31.15,18.53s-20.1-12.06-27.91-17.01c-6.15-3.9-15.03-6.34-27.89-16.32
 		c-13.51-10.11-30.96-30.55-30.96-30.55s-19.1-21.24-20.83-22.91c-1.73-1.67-15.92-10.19-23.83-15.36
 		c-11.33-7.42-30.99-31.9-30.99-31.9s-8.72-8.85-16.01-11.07c-7.29-2.21-14.68-8.5-14.68-8.5s-9.41-7.78-11.75-10.77
 		s-4.82-17.84-8.2-23.96c-3.39-6.12-8.33-12.13-9.89-13.54c-1.56-1.41,0,0,0,0l35.2-42.69c0,0,10.53-12.99,11.81-16.56
 		C169.71,20.28,171.49,5.1,171.49,5.1z"/>
-          </Link>
-          <Link aria-label="Visit the detail page for Lot Twenty" href="/properties/lottwenty">
-            <path fill="#A8DAF2" stroke="#FFFFFF" stroke-width="3.1247" stroke-miterlimit="10" d="M845.65,367.58c0,0,29.11-11.89,37.62-9.34
+
+            </Link>
+          </g>
+          <g id="lottwentyseven">
+            <Link aria-label="Visit the detail page for Lot Twenty" href="/properties/lottwenty">
+              <path fill="#A8DAF2" stroke="#FFFFFF" stroke-width="3.1247" stroke-miterlimit="10" d="M845.65,367.58c0,0,29.11-11.89,37.62-9.34
 		c6.14,1.84,166.16,29.35,166.16,29.35c-7.59,14.26-7.44,15.9-9.89,33.6c-2.26,16.28-1.86,20.17-2.78,29.05
 		c-2.64,25.61-18.86,29.79-37.97,32.75c-3.72,0.58-6.64,0.82-10.74,1.08c-4.2,0.27-10.36,0.57-14.09,0.35
 		c-22.52-1.34-29.2-4.78-39.78-10.07c0,0-39.55-23.18-54.78-30.61c-13.62-6.65-49.18-16.97-57.06-21.24l12.74-47.89
 		c0.07-0.21,0.12-0.42,0.16-0.63c0,0,2.36,0.52,5.28-0.7"/>
-          </Link>
+            </Link>
+          </g>
 
-          <Link aria-label="Visit the detail page for Lot Nineteen" href="/properties/lotnineteen">
-            <path fill="#A8DAF2" stroke="#FFFFFF" stroke-width="2.6039" stroke-miterlimit="10" d="M1069.09,269.25l0.07-41.24l76.48,11
+          <g id="lotnineteen">
+            <Link aria-label="Visit the detail page for Lot Nineteen" href="/properties/lotnineteen">
+              <path fill="#A8DAF2" stroke="#FFFFFF" stroke-width="2.6039" stroke-miterlimit="10" d="M1069.09,269.25l0.07-41.24l76.48,11
 		c0,0,2.01-1.8,0.59,3.68c-1.42,5.49-2.79,10.92-2.79,10.92l-6.46-0.5l-2.45,6.24l6.07,5.13c0,0-0.24,0.47-1.18,3.95
 		c-1.02,3.75-7.23,21.8-7.23,21.8s-0.57,2.58-2.52,9.82c-1.95,7.24-6.28,22.89-6.28,22.89s-1.56,2.38-0.08,8.96
 		c0.98,4.36,3.12,10.89,3.83,14.79c0.27,1.51,0.42,2.72,0.25,4.43c-0.2,1.95,0.51,6.04-6.83,12.6c0,0-16.36,14.86-18.68,16.6
 		c0,0-9.82-4.93-15.19-5.9c-5.37-0.97-13.2-0.95-20.1,0.87c-6.6,1.74-8.34,3.4-10.29,4.86c-5.05,3.77-6.85,7.47-6.85,7.47
 		L884.4,359.43c0,0-3.63-1.5-8.69,0.33c-5.07,1.84-30.06,8.53-30.06,8.53c-0.23,0.22,1.01-5.09-2.71-10.51l77.29-47.06l1.04-41.36
 		L1069.09,269.25z"/></Link>
-
-          <Link aria-label="Visit the detail page for Lot Eighteen" href="/properties/loteighteen">
-            <path fill="#A8DAF2" stroke="#FFFFFF" stroke-width="2.0832" stroke-miterlimit="10" d="M1069.16,228.01l-0.07-222.94h182.69
+          </g>
+          <g id="loteighteen">
+            <Link aria-label="Visit the detail page for Lot Eighteen" href="/properties/loteighteen">
+              <path fill="#A8DAF2" stroke="#FFFFFF" stroke-width="2.0832" stroke-miterlimit="10" d="M1069.16,228.01l-0.07-222.94h182.69
 		c0.73,0-100.21,162.91-100.21,162.91c-2.19,3.5-3.37,7.54-3.41,11.66l-1.52,26.7c-0.38,1.87,1.74,5.03,1.04,8.85
 		c0,0-3.3-1.56-5.9,1.39c-2.6,2.95-0.06,9.04,1.39,13.71l0.98,8.5L1069.16,228.01z"/>
-          </Link>
+            </Link>
+          </g>
 
-          <Link aria-label="Visit the detail page for Lot Seventeen" href="/properties/lotseventeen">
-            <path fill="#A8DAF2" stroke="#FFFFFF" stroke-width="3.1247" stroke-miterlimit="10" d="M1237.59,28.35l-89,139.46
+          <g id="lotseventeen">
+            <Link aria-label="Visit the detail page for Lot Seventeen" href="/properties/lotseventeen">
+              <path fill="#A8DAF2" stroke="#FFFFFF" stroke-width="3.1247" stroke-miterlimit="10" d="M1237.59,28.35l-89,139.46
 		c0,0-1.46,1.5-1.56,6.91c-0.1,5.41-0.39,28.92-0.39,28.92s-0.57,2.41,0.78,7.13c1.35,4.72,6.83,23.58,6.83,23.58l26.39-22.12
 		c0,0,3.92-3.48,9.74-7.57c5.82-4.09,47.22-32.31,47.22-32.31s1.53-0.81,4.8-2.36c2.8-1.32,6.7-2.77,6.7-2.77s4.2-2.7,6.19-5.08
 		c1.99-2.38,53.32-55.14,53.32-55.14S1243.22,34.83,1237.59,28.35z"/>
-          </Link>
-          <Link aria-label="Visit the detail page for Lot Sixteen" href="/properties/lotsixteen">
-            <path fill="#A8DAF2" stroke="#FFFFFF" stroke-width="3.1247" stroke-miterlimit="10" d="M1154.82,233.95c0,0-0.03,1.67-1.21,7.92
+            </Link>
+          </g>
+
+
+          <g id="lotnineteen">
+            <Link aria-label="Visit the detail page for Lot Sixteen" href="/properties/lotsixteen">
+              <path fill="#A8DAF2" stroke="#FFFFFF" stroke-width="3.1247" stroke-miterlimit="10" d="M1154.82,233.95c0,0-0.03,1.67-1.21,7.92
 		c-1.18,6.25-15.66,53.68-15.66,53.68s40.62-46.77,44.63-51.9c4.01-5.13,3.31-4.7,6.24-7.37c3.42-3.12,18.35-18.56,18.35-18.56
 		s1.78-1.27,7.67-0.17c1.72,0.32,65.36,19.18,65.36,19.18s58.45-60.58,63.05-65.9c0,0-15.9-11.71-17.99-16.46
 		c-7.18-16.31-2.89-32.86-16.91-46.71c-7.47,7.65-14.97,15.28-22.36,23c-4.13,4.32-8.26,8.64-12.38,12.97
 		c-1.88,1.97-11.4,9.52-11.4,11.99c-3.03,3.18-6.07,6.38-9.57,9.03c-6.9,5.22-15.19,7.04-22.52,11.18
 		c-7.73,4.37-14.29,10.88-21.55,15.96C1189.8,204.91,1172.44,219.4,1154.82,233.95z"/>
-          </Link>
-          <Link aria-label="Visit the detail page for Lot Fifteen" href="/properties/lotfifteen">
-            <path fill="#A8DAF2" stroke="#FFFFFF" stroke-width="3.1247" stroke-miterlimit="10" d="M1131.71,328.19
+            </Link>
+          </g>
+          <g id="lotfifteen">
+            <Link aria-label="Visit the detail page for Lot Fifteen" href="/properties/lotfifteen">
+              <path fill="#A8DAF2" stroke="#FFFFFF" stroke-width="3.1247" stroke-miterlimit="10" d="M1131.71,328.19
 		c0.2-5.72,1.35-11.4,2.58-16.97c0.69-3.13,1.47-6.23,2.12-9.37c0.72-3.5,0.7-5.31,3.18-8.22c10.48-12.29,20.94-24.58,31.4-36.88
 		c6.47-7.61,13.22-14.99,20.08-22.25c5.92-6.26,11.7-14.33,19.99-17.5c0.87-0.33,1.78-0.62,2.7-0.57c0.62,0.03,1.21,0.22,1.8,0.4
 		c21.57,6.64,43.15,13.26,64.72,19.89c0,0-12.53,18.86-12.28,28.46c0.25,9.57,1.05,124.95,1.05,125.07c0,0.11-9,2.75-9.6,2.98
@@ -134,40 +157,49 @@ export default function PropertiesIndex() {
 		c-5.46-0.93-14.6-6.78-19.14-10.68c-5.37-4.61-6.71-7.4-11.63-12.54c-4.09-4.28-10.81-14.18-16.83-19.89
 		c-3-2.85-9.17-7.55-9.17-7.55c3.33-3.33,6.63-6.7,9.89-10.1c4.64-4.82,11.92-10.66,13.61-17.38c2.21-8.8-2.48-17.45-2.78-26.19
 		C1131.67,330.41,1131.68,329.3,1131.71,328.19z"/>
-          </Link>
-          <Link aria-label="Visit the detail page for Lot Fourteen" href="/properties/lotfourteen">
-            <path fill="#A8DAF2" stroke="#FFFFFF" stroke-width="3.1247" stroke-miterlimit="10" d="M1372.48,188.82
+            </Link>
+          </g>
+          <g id="lotfourteen">
+            <Link aria-label="Visit the detail page for Lot Fourteen" href="/properties/lotfourteen">
+              <path fill="#A8DAF2" stroke="#FFFFFF" stroke-width="3.1247" stroke-miterlimit="10" d="M1372.48,188.82
 		c8.59,5.08,32.38,20.86,32.38,20.86l-6.77,54.47l-16.33,24.91c0,0-2.84,3.73-5.68,8.11c-2.84,4.38-43.58,67.82-49.57,77.49
 		c-4.2,6.77-16.12,21.86-19.62,29.18c-18.76-14.93-37.26-12.52-37.26-15.17c0,0-0.7-33.61-0.76-42.22
 		c-0.12-19.82-0.01-39.64-0.12-59.46c-0.04-7.37-0.12-14.74-0.12-22.11c0-0.08,0.23-0.15,0.22-0.23c-0.08-0.69-0.11-4.65,2.27-10.01
 		c2.26-5.09,9.03-17.86,13.09-22.12c5.24-5.5,60.07-60.7,60.07-60.7S1364.27,183.97,1372.48,188.82z"/>
-          </Link>
-          <g>
+            </Link>
+          </g>
+          {/* <g>
             <path fill="none" stroke="#C7C8CA" stroke-width="16.6652" stroke-miterlimit="10" d="M1334.06,362.75" />
             <path fill="none" stroke="#D8D9DA" stroke-width="7.291" stroke-miterlimit="10" d="M1334.06,362.75" />
           </g>
           <g>
             <path fill="none" stroke="#C7C8CA" stroke-width="16.6652" stroke-miterlimit="10" d="M1304.62,411.73" />
             <path fill="none" stroke="#D8D9DA" stroke-width="7.291" stroke-miterlimit="10" d="M1304.62,411.73" />
-          </g>
-          <Link aria-label="Visit the detail page for Lot Thirteen" href="/properties/lotthirteen">
-            <path fill="#A8DAF2" stroke="#FFFFFF" stroke-width="3.1247" stroke-miterlimit="10" d="M1399.01,265.4
+          </g> */}
+          <g id="lotthirteen">
+
+            <Link aria-label="Visit the detail page for Lot Thirteen" href="/properties/lotthirteen">
+              <path fill="#A8DAF2" stroke="#FFFFFF" stroke-width="3.1247" stroke-miterlimit="10" d="M1399.01,265.4
 		c0,0-69.95,109.26-76.12,118.71c-8,12.26-15.56,20.35-15.56,20.35c11.56,11.48,24.69,23.77,26.8,25.4
 		c6.23,4.81,20.93,10.08,31.49,10.67c10.85,0.61,16.63,0.35,26.5-1.63c7.53-1.51,17.71-5.6,24.67-8.79
 		c6.54-2.99,11.02-6.14,16.9-10.16c4.44-3.03,9.88-6.68,14.67-9.11c4.7-2.39,17.88-8.74,17.88-8.74c-0.44-5.52-1.12-12.2-1.25-13.26
 		c-0.67-5.16-1.34-10.32-2.02-15.48c-1.22-9.29-2.39-18.59-3.76-27.85c-0.15-1.01-0.18-2.18-0.51-3.16
 		c-0.45-1.32-0.41-2.74-1.11-4.02c-2.92-5.33-7.72-10.6-11.57-15.27c-4.28-5.2-8.17-9.63-12.22-15.02
 		c-5.05-6.74-11.35-13.64-16.72-20.12c-3.34-4.03-9.99-11.43-9.99-11.43L1399.01,265.4z"/></Link>
-          <Link aria-label="Visit the detail page for Lot Twelve" href="/properties/lottwelve">
-            <path fill="#A8DAF2" stroke="#FFFFFF" stroke-width="3.1247" stroke-miterlimit="10" d="M1398.84,263.43c0,0-0.67,3.06,2.23,6.46
+          </g>
+          <g id="lottwelve">
+            <Link aria-label="Visit the detail page for Lot Twelve" href="/properties/lottwelve">
+              <path fill="#A8DAF2" stroke="#FFFFFF" stroke-width="3.1247" stroke-miterlimit="10" d="M1398.84,263.43c0,0-0.67,3.06,2.23,6.46
 		c2.9,3.41,55.56,66.75,55.56,66.75s0.96,1.59,2.06,6.58c1.81,8.19,2.48,16.77,3.59,25.07c0.37,2.79,2.78,21.05,3.95,33.81
 		c0,0,21.33-6.23,23.56-6.47c7.49-0.8,15.16-1.15,22.34-3.41c9.48-2.98,20.84-9,26.83-16.93c4.59-6.08,6.15-9.32,8.46-17.97
 		c2.13-7.94,1.68-15.09-2.73-22c-4.22-6.61-8.29-11.18-13.89-16.67c-5.1-5.01-10.94-12.52-15.28-18.23
 		c-3.79-4.98-6.72-6.96-10.42-12c-1.75-2.39-8.18-7.4-10.24-9.52c-4.11-4.25-12.95-11.55-16.32-13.51
 		c-1.81-1.05-13.88-9.99-31.25-25.9c-18.3-16.76-35.02-36.38-35.02-36.38l-6.44,5.84C1405.85,208.96,1399.54,257.77,1398.84,263.43z
 		"/></Link>
-          <Link aria-label="Visit the detail page for Lot Eleven" href="/properties/loteleven">
-            <path fill="#A8DAF2" stroke="#FFFFFF" stroke-width="3.1247" stroke-miterlimit="10" d="M1595.2,11.05l0,23.01
+          </g>
+          <g id="loteleven">
+            <Link aria-label="Visit the detail page for Lot Eleven" href="/properties/loteleven">
+              <path fill="#A8DAF2" stroke="#FFFFFF" stroke-width="3.1247" stroke-miterlimit="10" d="M1595.2,11.05l0,23.01
 		c0,2.77-2.12,5.08-4.89,5.31c0,0-11.38,0.95-11.38,0.95c-66.48,5.54-136.33,3.58-198.17,32.21c-2.94,1.36-5.95,2.86-7.98,5.38
 		c-8.67,10.78,1.07,29.57,3.64,40.89c0.35,1.55-0.01,3.18-0.98,4.43l-13.27,17.2c-0.21,0.27-0.45,0.6-0.72,0.97
 		c-5.46,7.43,4.04,12.8,9.58,15.69c5.63,2.94,23.2,11.73,22.31,19.64c-0.25,2.24-1.27,4.39-1.15,6.64c0.16,2.92,2.24,5.42,4.64,7.09
@@ -176,8 +208,9 @@ export default function PropertiesIndex() {
 		c-0.48-2.38-0.97-4.78-1.99-6.99c-6.22-13.49-20.94-24.8-30.84-35.65c-8.48-9.3-16.96-18.59-25.44-27.89
 		c-6.82-7.48-15.31-14.56-21.16-22.78c-0.85-1.2-1.66-2.49-1.86-3.94c-0.8-5.79,9.02-16.62,12.06-21.36
 		c0.98-1.53,2.67-2.45,4.49-2.45h334.65C1592.81,5.72,1595.2,8.1,1595.2,11.05z"/></Link>
-          <g>
-            <g>
+          </g>
+          {/* <g> */}
+          {/* <g>
               <path fill="#A8DAF2" d="M1376.14,121.19c-0.05,0.26-0.12,0.52-0.24,0.78c-1.65,3.76-5.22,7.26-7.71,10.47
 				c-2.08,2.68-4.17,5.36-6.25,8.04c-1.07,1.38-5.9,6.24-5.32,7.71c0.46,1.17,4.09,2.85,5.1,3.56c6.34,4.43,12.69,8.87,19.03,13.3
 				c3.96,2.77,7.92,5.53,11.86,8.31c0.61,0.43,1.91,1.23,1.93,1.24c0.03,0.02,2.13-1.53,2.37-1.69c1.44-0.92,2.59-1.36,4.32-1.56
@@ -187,9 +220,9 @@ export default function PropertiesIndex() {
 				c-12.66,3.29-25.41,6.05-37.77,10.4c-6.25,2.2-12.37,4.76-18.24,7.84c-3.36,1.77-6.84,3.65-9.56,6.35
 				c-3.72,3.7-2.43,7.99-1.38,12.53c0.95,4.09,1.86,8.18,2.78,12.27c1,4.3,1.95,8.61,2.93,12.91
 				C1375.71,117.96,1376.42,119.64,1376.14,121.19z"/>
-            </g>
+            </g> */}
 
-            <g opacity="0.75" mask="url(#SVGID_1_)">
+          {/* <g opacity="0.75" mask="url(#SVGID_1_)">
               <path fill="#FFFFFF" d="M1376.14,121.19c-0.05,0.26-0.12,0.52-0.24,0.78c-1.65,3.76-5.22,7.26-7.71,10.47
 				c-2.08,2.68-4.17,5.36-6.25,8.04c-1.07,1.38-5.9,6.24-5.32,7.71c0.46,1.17,4.09,2.85,5.1,3.56c6.34,4.43,12.69,8.87,19.03,13.3
 				c3.96,2.77,7.92,5.53,11.86,8.31c0.61,0.43,1.91,1.23,1.93,1.24c0.03,0.02,2.13-1.53,2.37-1.69c1.44-0.92,2.59-1.36,4.32-1.56
@@ -199,9 +232,9 @@ export default function PropertiesIndex() {
 				c-12.66,3.29-25.41,6.05-37.77,10.4c-6.25,2.2-12.37,4.76-18.24,7.84c-3.36,1.77-6.84,3.65-9.56,6.35
 				c-3.72,3.7-2.43,7.99-1.38,12.53c0.95,4.09,1.86,8.18,2.78,12.27c1,4.3,1.95,8.61,2.93,12.91
 				C1375.71,117.96,1376.42,119.64,1376.14,121.19z"/>
-            </g>
-          </g>
-          <g>
+            </g> */}
+          {/* </g> */}
+          <g id="lotten">
             <Link aria-label="Visit the detail page for Lot Ten" href="/properties/lotten">
               <path fill="#A8DAF2" d="M1376.14,121.19c-0.05,0.26-0.12,0.52-0.24,0.78c-1.65,3.76-5.22,7.26-7.71,10.47
 			c-2.08,2.68-4.17,5.36-6.25,8.04c-1.07,1.38-5.9,6.24-5.32,7.71c0.46,1.17,4.09,2.85,5.1,3.56c6.34,4.43,12.69,8.87,19.03,13.3
@@ -212,6 +245,7 @@ export default function PropertiesIndex() {
 			c-12.66,3.29-25.41,6.05-37.77,10.4c-6.25,2.2-12.37,4.76-18.24,7.84c-3.36,1.77-6.84,3.65-9.56,6.35
 			c-3.72,3.7-2.43,7.99-1.38,12.53c0.95,4.09,1.86,8.18,2.78,12.27c1,4.3,1.95,8.61,2.93,12.91
 			C1375.71,117.96,1376.42,119.64,1376.14,121.19z"/></Link>
+
 
             <path fill="none" stroke="#FFFFFF" stroke-width="2.0832" stroke-miterlimit="10" d="M1376.14,121.19
 			c-0.05,0.26-0.12,0.52-0.24,0.78c-1.65,3.76-5.22,7.26-7.71,10.47c-2.08,2.68-4.17,5.36-6.25,8.04c-1.07,1.38-5.9,6.24-5.32,7.71
@@ -224,27 +258,31 @@ export default function PropertiesIndex() {
 			c1,4.3,1.95,8.61,2.93,12.91C1375.71,117.96,1376.42,119.64,1376.14,121.19z"/>
           </g>
 
-          <Link aria-label="Visit the detail page for Lot Nine" href="/properties/lotnine">
-            <path fill="#A8DAF2" stroke="#FFFFFF" stroke-width="3.1247" stroke-miterlimit="10" d="M1594.73,74.14l-144.76,94.39
+          <g id="lotnine">
+            <Link aria-label="Visit the detail page for Lot Nine" href="/properties/lotnine">
+              <path fill="#A8DAF2" stroke="#FFFFFF" stroke-width="3.1247" stroke-miterlimit="10" d="M1594.73,74.14l-144.76,94.39
 		c0,0-1.98,2.72-7.19-0.7c-5.2-3.42-15.49-9.77-15.49-9.77s-2.3-2.73-5.68,0c-3.38,2.73-18.58,13.08-18.58,13.08
 		s4.12,0.21,6.85,3.08c5.22,5.5,2.47,11.5,2.47,11.5s8.59,9.46,9.69,11.19c0.8,1.26,34.85,38.16,35.25,37.65l137.13-2.93
 		L1594.73,74.14z"/></Link>
 
-          <path display="none" fill="#A8DAF2" stroke="#FFFFFF" stroke-width="3.1247" stroke-miterlimit="10" d="M1456.75,227.02
+
+            <path display="none" fill="#A8DAF2" stroke="#FFFFFF" stroke-width="3.1247" stroke-miterlimit="10" d="M1456.75,227.02
 		c0,0,25.64,18.69,29.78,21.41c4.14,2.72,2.88,1.96,2.88,1.96s11.44,10.1,13.87,12.04c2.43,1.94,6.13,6.07,6.13,6.07
 		s17.84,23.03,19.81,25.51c1.97,2.48,8.88,9.22,8.88,9.22s6.66,5.85,7.76,7.6c1.1,1.75,3.98,5.6,3.98,5.6s3.53,6.05,6.76,11.33
 		c3.22,5.28,2.21,6.07,2.21,6.07s-0.07,4.59,4.17,6.21c4.23,1.62,2.86,3.34,2.86,3.34s7.81,6.07,10.81,8.81
 		c3,2.75,4.56,4.34,4.56,4.34s11.86,20.85,13.57,18.79c1.7-2.06-0.56-151.41-0.56-151.41"/>
-
-          <Link aria-label="Visit the detail page for Lot Eight" href="/properties/loteight">
-            <path fill="#A8DAF2" stroke="#FFFFFF" stroke-width="3.1247" stroke-miterlimit="10" d="M1455.09,235.56
+          </g>
+          <g id="loteight">
+            <Link aria-label="Visit the detail page for Lot Eight" href="/properties/loteight">
+              <path fill="#A8DAF2" stroke="#FFFFFF" stroke-width="3.1247" stroke-miterlimit="10" d="M1455.09,235.56
 		c0,0,25.64,18.69,29.78,21.41c4.14,2.72,2.88,1.96,2.88,1.96s11.44,10.1,13.87,12.04c2.43,1.94,6.13,6.07,6.13,6.07
 		s17.84,23.03,19.81,25.51c1.97,2.48,8.88,9.22,8.88,9.22s8.02,6.04,9.12,7.79c1.1,1.75,4.2,5.69,4.2,5.69s3.41,4.86,6.63,10.13
 		c3.22,5.28,5.29,4.8,5.29,4.8s0,0,4.23,1.62c4.23,1.62,6.02,3.34,6.02,3.34s7.59,7.17,10.59,9.92c3,2.75,3.34,6.07,3.34,6.07
 		s5.54,23.17,7.24,21.12c1.7-2.06,0-149.77,0-149.77"/></Link>
-          <g>
-            <Link aria-label="Visit the detail page for Lot Five" href="/properties/lotfive">
+          </g>
+          <g id="lotfive">
 
+            <Link aria-label="Visit the detail page for Lot Five" href="/properties/lotfive">
               <path fill="#A8DAF2" d="M1268.27,401.89c27.29,0,38.13,17.62,53.37,31.03c11.39,10.03,22.59,14.3,37.4,17.62
 			c17.38,3.91,43.42-2.28,48.11-4.49l-1.36,46.35l-86.64,13.8c0,0-2.1,1.17-12.29-2.45c-10.18-3.62-38.03-14.49-38.03-14.49
 			s-2.64,0.69-2.51-5.01S1268.27,401.89,1268.27,401.89z"/>
@@ -254,13 +292,15 @@ export default function PropertiesIndex() {
 			c27.29,0,38.13,17.62,53.37,31.03c11.39,10.03,22.59,14.3,37.4,17.62c17.38,3.91,43.42-2.28,48.11-4.49l-1.36,46.35l-86.64,13.8
 			c0,0-2.1,1.17-12.29-2.45c-10.18-3.62-38.03-14.49-38.03-14.49s-2.64,0.69-2.51-5.01S1268.27,401.89,1268.27,401.89z"/></Link> */}
           </g>
-          <g>
+          <g id="lotfour">
             <Link aria-label="Visit the detail page for Lot Four" href="/properties/lotfour">
               <path fill="#A8DAF2" d="M1426.61,530.23l-206.54-0.01l0.39-101.84l7.05-5.04c0,0,8.93-5.74,14.02-9.15
 			c13.29-8.86,25.44-11.95,26.72-12.26c-0.17,7.05-1.8,76.36-1.93,81.77c-0.14,5.7,2.51,5.02,2.51,5.02s27.85,10.86,38.03,14.48
 			c6.74,2.4,9.94,2.7,11.33,2.63l0.06,0.13c0.61-0.17,2.14-0.46,4.37-0.85c0.03-0.01,0.06-0.01,0.09-0.02
 			c7.04-1.23,20.98-3.42,35.45-5.65c0.03,0,0.05-0.01,0.07-0.01c23.1-3.55,47.56-7.18,47.56-7.18l-0.11,17.34
 			c0,0,3.43,3.85,8.36,8.84C1418.97,523.44,1426.61,530.23,1426.61,530.23z"/></Link>
+          </g>
+          <g id="lotfive">
             <Link aria-label="Visit the detail page for Lot Five" href="/properties/lotfive">
               <path fill="none" stroke="#FFFFFF" stroke-width="2.6039" stroke-miterlimit="10" d="M1426.61,530.23l-206.54-0.01l0.39-101.84
 			l7.05-5.04c0,0,8.93-5.74,14.02-9.15c13.29-8.86,25.44-11.95,26.72-12.26c-0.17,7.05-1.8,76.36-1.93,81.77
@@ -268,7 +308,7 @@ export default function PropertiesIndex() {
 			c0.03-0.01,0.06-0.01,0.09-0.02c7.04-1.23,20.98-3.42,35.45-5.65c0.03,0,0.05-0.01,0.07-0.01c23.1-3.55,47.56-7.18,47.56-7.18
 			l-0.11,17.34c0,0,3.43,3.85,8.36,8.84C1418.97,523.44,1426.61,530.23,1426.61,530.23z"/></Link>
           </g>
-          <g>
+          <g id="lottwo">
             <Link aria-label="Visit the detail page for Lot Two" href="/properties/lottwo">
               <path fill="#A8DAF2" d="M702.73,531.32L660.3,340.16c0,0,37.21,9.32,65.72,27.93c11.01,7.19,15.97,11.21,30.79,22.46
 			c10.71,8.13,24.19,20.6,56.16,39.69c7.23,4.32,27.21,10.89,43.07,16.75c15.88,5.87,27.2,12.12,29.72,13.45
@@ -279,14 +319,18 @@ export default function PropertiesIndex() {
 			c7.23,4.32,27.21,10.89,43.07,16.75c15.88,5.87,27.2,12.12,29.72,13.45c12.77,6.75,40.46,21.25,61.42,34.73
 			c37.56,24.16,63.31,35.11,63.31,35.11L702.73,531.32z"/>
           </g>
-          <Link aria-label="Visit the detail page for Lot Twenty-One" href="/properties/lottwentyone">
-            <path id="Lot_21_00000039098247319423480220000011830467067161028229_" fill="#A8DAF2" stroke="#FFFFFF" stroke-width="2.6039" stroke-miterlimit="10" d="
+
+          <g id="lottwentyone">
+            <Link aria-label="Visit the detail page for Lot Twenty-One" href="/properties/lottwentyone">
+              <path id="Lot_21_00000039098247319423480220000011830467067161028229_" fill="#A8DAF2" stroke="#FFFFFF" stroke-width="2.6039" stroke-miterlimit="10" d="
 		M599.71,269.08l321.57,0.31l-1.04,41.36l-77.29,47.06c-6.22-5.31-12.5-3.7-15.46-0.45c-2.85,3.12-2.98,6.05-2.29,10.33l3.4,4.25
 		l-13.37,49.56l-19.31-12.78l-16.86-12.95l-39.06-29.16c0,0-3.89-3.4-11.39-7.94c-9.51-5.76-15.88-9.03-31.99-15.68
 		c-10.1-3.73-10.8-4.07-16.92-6.15c-6.41-2.18-13.1-4.01-20.84-6.45c-2.82-0.89-16.29-4.27-16.29-4.27
 		c-0.03-0.01-30.43-5.7-42.84-6.27V269.08z"/></Link>
-          <Link aria-label="Visit the detail page for Lot Seven" href="/properties/lotseven">
-            <path fill="#A8DAF2" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" d="M1437.55,430.8c0,0,7.15-4.77,7.66-5.12
+          </g>
+          <g id="lotseven">
+            <Link aria-label="Visit the detail page for Lot Seven" href="/properties/lotseven">
+              <path fill="#A8DAF2" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" d="M1437.55,430.8c0,0,7.15-4.77,7.66-5.12
 		c4.56-3.18,13.29-9.25,14.94-10.4c0.21-0.13,0.42-0.26,0.63-0.4c1.03-0.58,4.14-2.24,7.83-3.16c4.53-1.13,14.6-3.7,14.6-3.7
 		s6.24-1.12,9.8-1.99c31.68-7.76,52.33-23.71,54.33-26.02c0.31-0.35,0.58-0.72,0.82-1.12c0.8-1.31,2.72-4.56,4.36-8.04
 		c1.48-3.15,3.32-7.18,4.31-9.36c0.53-1.16,1.3-2.18,2.27-3c1.61-1.36,4.18-3.17,6.45-3.17c3.62,0,4.63,2.16,5.91,4.91
@@ -294,48 +338,60 @@ export default function PropertiesIndex() {
 		s-0.95,1.73,3.06,6.41c4.01,4.68,4.23,6.05,2.98,12.06c-2.22,10.65-8.74,28.55-11.37,35.58l-92.7-10.04
 		c-0.21-0.01-0.41-0.03-0.61-0.04c-0.89-0.02-4.27-0.21-10.99-1.87c-2.09-0.52-26.07-7.15-26.07-7.15
 		c1.81-7.18-3.39-11.27-3.39-11.27C1441.6,443.39,1439.17,433.49,1437.55,430.8z"/></Link>
-          <Link aria-label="Visit the detail page for Lot Six" href="/properties/lotsix">
-            <path fill="#A8DAF2" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" d="M1551.7,530.23h-124.53
+          </g>
+          <g id="lotsix">
+            <Link aria-label="Visit the detail page for Lot Six" href="/properties/lotsix">
+              <path fill="#A8DAF2" stroke="#FFFFFF" stroke-width="3" stroke-miterlimit="10" d="M1551.7,530.23h-124.53
 		c-0.71,0-1.39-0.27-1.9-0.76l-13.44-12.87c-0.1-0.1-0.21-0.18-0.32-0.26c-0.78-0.55-6.63-3.42-6.38-10.12
 		c0.12-3.27,2.01-58.71,2.01-58.71c11.65-4.65,20.38-9.98,24.63-13.02c0,0,3.3,5.52,0,12.31c-0.24,0.5-3.8,0.58-4.52,0.81
 		c-11.69,3.74-7.72,22.63,4.65,21.09c5.26-0.65,6.78-4.3,9.69-7.99l29.8,7.43c0,0,2.39,0.82,11.03,1.73
 		c7.57,0.79,89.12,9.91,89.12,9.91l-17.26,48.61C1553.91,529.49,1552.87,530.23,1551.7,530.23z"/>
-          </Link>
+            </Link>
+          </g>
+          <g id="Oceanview">
+            <rect x="737.27" y="81.78" fill="none" width="178.41" height="20.69" />
+            <text transform="matrix(1 0 0 1 737.2666 100.7302)" font-family="'GoudyStM'" font-size="24.9979px">Oceanview</text>
+            <rect x="739.47" y="112.68" fill="none" width="234.55" height="25.51" />
+          </g>
 
-          <rect x="737.27" y="81.78" fill="none" width="178.41" height="20.69" />
-          <text transform="matrix(1 0 0 1 737.2666 100.7302)" font-family="'GoudyStM'" font-size="24.9979px">Oceanview</text>
-          <rect x="739.47" y="112.68" fill="none" width="234.55" height="25.51" /
-          >
-          <text transform="matrix(1 0 0 1 739.4717 131.6266)" font-family="'GoudyStM'" font-size="24.9979px">Rural Beauty</text>
+          <g id="RuralBeauty">
+            <text transform="matrix(1 0 0 1 739.4717 131.6266)" font-family="'GoudyStM'" font-size="24.9979px">Rural Beauty</text>
+            <rect x="737.1" y="145.01" fill="none" width="204.82" height="20.8" />
+            <text transform="matrix(1 0 0 1 737.1045 163.9548)" font-family="'GoudyStM'" font-size="24.9979px">Common Property</text>
+          </g>
 
-          <rect x="737.1" y="145.01" fill="none" width="204.82" height="20.8" />
-          <text transform="matrix(1 0 0 1 737.1045 163.9548)" font-family="'GoudyStM'" font-size="24.9979px">Common Property</text>
-          <g>
+          <g id="CommonProperty">
             <rect x="736.42" y="176.58" fill="none" width="290.31" height="35.98" />
             <text transform="matrix(1 0 0 1 736.417 195.5329)" font-family="'GoudyStM'" font-size="24.9979px">Common Property Roads</text>
           </g>
-          <g>
+
+          <g id="Wetlands">
             <rect x="736.42" y="210.02" fill="none" width="290.31" height="35.98" />
             <text transform="matrix(1 0 0 1 736.417 228.9704)" font-family="'GoudyStM'" font-size="24.9979px">Wetlands, Ponds</text>
           </g>
+
           <g>
             <rect x="687.32" y="80.05" fill="#A8DAF2" width="39.06" height="26.04" />
           </g>
+
           <g>
             <rect x="687.32" y="110.6" fill="#D0E0BC" width="39.06" height="26.04" />
           </g>
-          <rect x="687.32" y="142.65" opacity="0.65" fill="#388F71" width="39.06" height="26.04" />
+
+          <g>
+            <rect x="687.32" y="142.65" opacity="0.65" fill="#388F71" width="39.06" height="26.04" />
+          </g>
+
           <g>
             <rect x="687.32" y="174.68" fill="#D8D9DA" width="39.06" height="26.04" />
           </g>
-          <g>
-            <g>
-              <rect x="687.32" y="207.47" fill="#68B6EA" width="39.06" height="26.04" />
-            </g>
 
-            <g opacity="0.75" mask="url(#SVGID_00000174564321173495617300000012593480919657965731_)">
-              <rect x="687.32" y="207.47" fill="#FFFFFF" width="39.06" height="26.04" />
-            </g>
+          <g>
+            <rect x="687.32" y="207.47" fill="#68B6EA" width="39.06" height="26.04" />
+          </g>
+
+          <g opacity="0.75" mask="url(#SVGID_00000174564321173495617300000012593480919657965731_)">
+            <rect x="687.32" y="207.47" fill="#FFFFFF" width="39.06" height="26.04" />
           </g>
 
           <rect x="771.9" y="-113.75" transform="matrix(6.447242e-03 -1 1 6.447242e-03 747.7978 885.0526)" fill="none" width="94.78" height="359.91" />
@@ -721,8 +777,8 @@ export default function PropertiesIndex() {
 
 
       </article>
-      <Link href="/">Back to home</Link>
-    </main>
+
+    </main >
 
   )
 }

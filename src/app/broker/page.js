@@ -15,9 +15,9 @@ export default function Broker() {
           alt="Lot Two"
           width={2560}
           height={1440}
-          backgroundSize="cover"
-          maxWidth="none"
-          priority
+          backgroundsize="cover"
+          maxwidth="none"
+
         />
         <article className='px-6 py-12 shadow-xl bg-white p-2 prose prose-slate mx-auto mt-8 md:prose lg:prose-lg'>
           <div className='flex flex-col items-center'>
@@ -27,9 +27,9 @@ export default function Broker() {
               alt="Li Read"
               width={200}
               height={200}
-              backgroundSize="cover"
-              maxWidth="none"
-              priority
+              backgroundsize="cover"
+              maxwidth="none"
+
             />
             <h2>Li Read</h2>
             <Image
@@ -38,9 +38,9 @@ export default function Broker() {
               alt="Lot Two"
               width={100}
               height={40}
-              backgroundSize="cover"
-              maxWidth="none"
-              priority
+              backgroundsize="cover"
+              maxwidth="none"
+
             />
 
 
@@ -89,9 +89,7 @@ export default function Broker() {
           </ul>
         </article>
       </main >
-      <h2>
-        <Link href="/">Back to home</Link>
-      </h2>
+
     </>
   )
 }

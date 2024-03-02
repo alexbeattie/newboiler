@@ -8,8 +8,8 @@ export default function Footer() {
         height={800}
         width={172}
         alt="Skywater"
-        priority={true}
-        style={{ maxWidth: '100%', height: 'auto', width: 'auto' }}
+       
+      style={{ maxwidth: '100%', height: 'auto', width: 'auto' }}
       />
       <Image
         className=""
@@ -17,9 +17,9 @@ export default function Footer() {
         alt="Li Read"
         width={200}
         height={200}
-        backgroundSize="cover"
-        maxWidth="none"
-        priority
+        backgroundsize="cover"
+        maxwidth="none"
+
       />
     </footer>
   );

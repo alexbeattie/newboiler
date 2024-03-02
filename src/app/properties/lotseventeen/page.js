@@ -14,9 +14,9 @@ export default function LotSeventeen() {
         alt="Lot Two"
         width={2560}
         height={1440}
-        backgroundSize="cover"
+        backgroundsize="cover"
         maxWidth="none"
-        priority
+
       />
       <article className='px-6 py-12 shadow-xl bg-white p-2 prose prose-slate mx-auto mt-8 lg:prose-lg'>
 

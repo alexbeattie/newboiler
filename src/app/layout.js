@@ -1,10 +1,12 @@
 import Nav from './components/nav'
 import Header from './components/header'
 import Footer from './components/footer'
+// import Link
 // import Main from './components/main'
-// import Link from 'next/link'
+import Link from 'next/link'
 // import { Inter } from 'next/font/google'
 import { Ysabeau_Infant } from 'next/font/google'
+
 // import './globals.css'
 
 // const inter = Inter({ subsets: ['latin'] })
@@ -22,9 +24,13 @@ export default function Layout({ children }) {
         <Header />
         <Nav />
 
-        <main>
-          {children}
-        </main>
+        {/* <main> */}
+        {children}
+        {/* </main> */}
+
+        <h2 className='justify-center flex py-4'>
+          <Link href="/">Back to home</Link>
+        </h2>
 
         <Footer />
 

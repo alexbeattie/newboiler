@@ -15,9 +15,9 @@ export default function Views() {
           alt="Lot Two"
           width={2560}
           height={1440}
-          backgroundSize="cover"
-          maxWidth="none"
-          priority
+          backgroundsize="cover"
+          maxwidth="none"
+
         />
 
         <article className='px-6 py-12 shadow-xl bg-white p-2 prose prose-slate mx-auto mt-8 lg:prose-lg'>

@@ -14,9 +14,9 @@ export default function About() {
         alt="Lot Two"
         width={2560}
         height={1440}
-        backgroundSize="cover"
-        maxWidth="none"
-        priority
+        backgroundsize="cover"
+        maxwidth="none"
+
       />
       <article className='px-6 py-12 shadow-xl bg-white p-2 prose prose-slate mx-auto mt-8 lg:prose-lg'>
         <blockquote>A Special Place On Earth</blockquote>
@@ -58,7 +58,7 @@ export default function About() {
 
         <p>Renowned as an artists enclave; a special sanctuary component with park and ecological reserves to retain the wilderness aspect of the Island; a micro-climate that encourages vineyards, olive groves, orchards and organic produce; and many other features to be explored, Salt Spring offers a lifestyle opportunity with all of the options required by the 21st Century.</p>
       </article>
-      <Link href="/">Back to home</Link>
+
     </main>
 
   )
