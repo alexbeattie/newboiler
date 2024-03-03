@@ -12,6 +12,7 @@ import { Ysabeau_Infant } from 'next/font/google'
 // const inter = Inter({ subsets: ['latin'] })
 const ysbeau = Ysabeau_Infant({ subsets: ['latin'], display: 'swap' })
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata = {
   title: 'Skywater',
@@ -28,6 +29,7 @@ export default function Layout({ children }) {
         {/* <main> */}
         {children}
         <SpeedInsights />
+        <Analytics />
 
         {/* </main> */}
 
